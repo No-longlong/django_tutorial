@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # 'DIRS': 'C:\django_tutorial\myvenv\Lib\site-packages\django\template',
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
